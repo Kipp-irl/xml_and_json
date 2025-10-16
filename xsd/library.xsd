@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   elementFormDefault="qualified">
+	<!--Define a reusable group-->
+	<xs:group name="authorgroup">
+		<xs:sequence>
+			<xs:element name="author" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="firstname" type="xs:string"/>
+						<xs:element name="lastname" type="xs:string"/>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<!--Define a book complex type : demonstrating element content.-->
+	<xs:complexType name="booktype">
+		<xs:sequence>
+			<xs:element name="title" type="xs:string"/>
+			<xs:element name="publisher">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="name" type="xs:string"/>
+						<xs:element name="city" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<!-- use the author group -->
+			<xs:group ref="authorgroup"/>
+			<!-- mixed content example -->
+			<xs:element name="description" minOccurs="0">
+				<xs:complexType mixed="true">
+					<xs:sequence>
+						<xs:element name="note" type="xs:string" minOccurs="0" maxOccurs="1"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
