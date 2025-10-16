@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library xmlns:xsi="http://www.w1.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/library.xsd">
+	<book isbn="978-012356-34-2">
+		<title>How to stop Balding</title>
+		<publisher>
+			<name>Rhino Press</name>
+			<city>Nairobi</city>
+		</publisher>
+	</book>
+	<author id="au001">
+		<firstname>Adam</firstname>
+		<lastname>Ibrahim</lastname>
+	</author>
+	<desription>A book on how to stop balding</desription>
+	<book isbn="978-657532-76-6">
+		<title>How to lose weight</title>
+		<publisher>
+			<name>Rhino Press</name>
+			<city>Nairobi</city>
+		</publisher>
+	</book>
+	<author id="au001">
+		<firstname>Ayub</firstname>
+		<lastname>Adbulleh</lastname>
+	</author>
+	<desription>A book on how to stop balding</desription>
+</library>
