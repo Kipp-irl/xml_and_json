@@ -41,6 +41,33 @@
 		</xs:restriction>
 	</xs:simpleType>
 
-	<xs:element name="root-element">
+	<xs:element name="students">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="student" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="age" type="agetype"/>
+							<xs:element name="grade" type="gradetype"/>
+							<xs:element name="email" type="emailtype"/>
+							<xs:element name="joindate" type="xs:date"/>
+						</xs:sequence>
+
+						<!-- Attributes -->
+						<xs:attribute name="id" type="xs:ID" use="required"/>
+						<xs:attribute name="status" use="optional">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="active"/>
+									<xs:enumeration value="inactive"/>
+									<xs:enumeration value="suspended"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
 	</xs:element>
 </xs:schema>
