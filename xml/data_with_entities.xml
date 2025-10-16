@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/css/letter.css" type="text/css"?>
+<!--Internal Document Type Definition-->
+<!DOCTYPE letter [
+   <!ENTITY address "15 Downing St Floor 1">
+   <!ENTITY city "New York">
+]>
+<!--End of document parsing-->
+
+<!--Document-->
+<letter>
+    <to>&quot; Tom Smith&quot;</to>
+    <address>September, 1983</address>
+    <city>&city;</city>
+    <body>
+        Hi! How are you?
+        The sum is &gt; $1000
+    </body>
+    <from>Arnold</from>
+</letter>

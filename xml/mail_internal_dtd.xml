@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document Prolog contains the document tags and their types-->
+<!DOCTYPE  mail [
+   <!ELEMENT  mail (to, from, date, time, cc, bcc, subject, message, signature)>
+   <!ELEMENT to (#PCDATA)>
+   <!ELEMENT from (#PCDATA)>
+   <!ELEMENT date (#PCDATA)>
+   <!ELEMENT time (#PCDATA)>
+   <!ELEMENT cc (#PCDATA)>
+   <!ELEMENT bcc (#PCDATA)>
+   <!ELEMENT subject (#PCDATA)>
+   <!ELEMENT message (#PCDATA)>
+   <!ELEMENT signature (#PCDATA)>
+]>
+
+<mail>
+    <to>anne@xyz.com</to>
+    <from>bob@xyz.com</from>
+    <date>9th October 2025</date>
+    <time>10:00 am</time>
+    <cc></cc>
+    <bcc></bcc>
+    <subject>Meeting at main conference room at 04:30 pm</subject>
+    <message>Hi, kindly request you to attend the cultural body general meeting in the main conference room at 04:30 pm
+         Pleast be present to learn about the new activities being planned for the employees this year.
+         Yours Sincerely,
+
+         Frank
+    </message>
+    <signature></signature>
+</mail>

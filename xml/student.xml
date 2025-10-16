@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Internal Document Type Definition-->
+<!DOCTYPE student [
+   <!ELEMENT student (name, dob, bloodgroup, price, rollnumber)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT dob (#PCDATA)>
+   <!ELEMENT bloodgroup (#PCDATA)>
+   <!ELEMENT rollnumber (#PCDATA)>
+]>
+
+<student>
+    <name>James</name>
+    <dob>September, 1983</dob>
+    <bloodgroup>A positive</bloodgroup>
+    <rollnumber>17</rollnumber>
+</student>

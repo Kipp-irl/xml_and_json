@@ -1,0 +1,36 @@
+
+
+g\:groceries{
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: blanchedalmond;
+  padding: 10px;
+
+}
+
+g\:item{
+  display: block;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: brown;
+
+}
+
+g\:name{
+  font-weight: 400;
+  color: black;
+
+}
+
+g\:category{
+  font-style: oblique;
+  color: black;
+}
+
+g\:quantity{
+  color: black;
+}
+
+
+/*The g\: refers to an XML element with a namespace prefix.*/

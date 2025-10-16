@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML document to illustrate working with multiple XML namespaces -->
+<?xml-stylesheet href="css/groceries.css" type="text/css"?>
+
+<g:groceries xmlns:g="http://adse2501.co.ke/groceries"
+             xmlns:p="http://adse2501.co.ke/price">
+
+    <g:item>
+        <g:name>Apples</g:name>
+        <g:category>Fruit</g:category>
+        <g:quantity>5</g:quantity>
+        <p:price>
+            <p:unit currency="KES">40</p:unit>
+            <p:total>200</p:total>
+        </p:price>
+    </g:item>
+
+    <g:item>
+        <g:name>Milks</g:name>
+        <g:category>Dairy</g:category>
+        <g:quantity>4</g:quantity>
+        <p:price>
+            <p:unit currency="KES">45</p:unit>
+            <p:total>160</p:total>
+        </p:price>
+    </g:item>
+
+    <g:item>
+        <g:name>Bread</g:name>
+        <g:category>Bakery</g:category>
+        <g:quantity>2</g:quantity>
+        <p:price>
+            <p:unit currency="KES">65</p:unit>
+            <p:total>80</p:total>
+        </p:price>
+    </g:item>
+
+    <g:item>
+        <g:name>Butter</g:name>
+        <g:category>Margarine &amp; Spreads</g:category>
+        <g:quantity>1</g:quantity>
+        <p:price>
+            <p:unit currency="KES">40</p:unit>
+            <p:total>40</p:total>
+        </p:price>
+    </g:item>
+
+</g:groceries>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Internal Document Type Definition-->
+<!DOCTYPE mobiles SYSTEM "../dtd/mobiles.dtd">
+<mobiles>
+    <mobile>
+       <company>Samsung</company>
+       <model type="camera">Galaxy S25</model>
+       <price>Kes. 150,000</price>
+       <accessories>&sk; &ch;</accessories>
+    </mobile>
+    <mobile>
+       <company>One Plus</company>
+       <model type="camera">One Plus 12</model>
+       <price>Kes. 180,000</price>
+       <accessories>&ch;</accessories>
+    </mobile>
+    <mobile>
+       <company>Apple</company>
+       <model type="camera">iPhone 16 Pro Max</model>
+       <price>Kes. 190,000</price>
+       <accessories>&sk;</accessories>
+    </mobile>
+</mobiles>

@@ -1,0 +1,12 @@
+<!ELEMENT mobiles (mobile+)>
+<!ELEMENT mobile (company, model, price, accessories)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT accessories (#PCDATA)>
+
+<!ATTLIST model type CDATA "Camera">
+
+<!ENTITY hp "head phones">
+<!ENTITY ch "charger">
+<!ENTITY sk "starter kit">
