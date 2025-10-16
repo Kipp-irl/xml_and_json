@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   elementFormDefault="qualified">
+	<!--
+	**********************************************
+	Custom simple type: agetype
+	Restriction: age should be between 16 - 100
+	**********************************************
+	-->
+	<xs:simpleType name="agetype">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="16"/>
+			<xs:maxInclusive value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!--
+	**********************************************
+	Custom simple type: gradetype
+	Restriction: string from the letters A,B,C & D
+	**********************************************
+	-->
+	<xs:simpleType name="gradetype">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="A"/>
+			<xs:enumeration value="B"/>
+			<xs:enumeration value="C"/>
+			<xs:enumeration value="D"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!--
+	++++++++++++++++++++++++++++++++++++++++++++
+	Custom simple type: emailtype
+	Restriction: string with a patter (email regex)
+	++++++++++++++++++++++++++++++++++++++++++++
+	-->
+	<xs:simpleType name="emailtype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z0-9_%+-]+@[a-zA-Z0-9-_]+\.[a-zA-Z]{2,4}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="root-element">
+	</xs:element>
+</xs:schema>
