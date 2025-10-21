@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Internal Document Type Definition-->
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="../xsd/student.xsd">
+	<student id="s001" status="active">
+		<name>Dennis Mafuta</name>
+		<age>45</age>
+		<grade>A</grade>
+		<email>dennis.mafuta@edulink.ac.ke</email>
+		<joindate>2023-09-01</joindate>
+	</student>
+	<student id="s002" status="active">
+		<name>Adam Ibrahim</name>
+		<age>23</age>
+		<grade>B</grade>
+		<email>adam.ibrahim@edulink.ac.ke</email>
+		<joindate>2023-09-03</joindate>
+	</student>
+	<student id="s003" status="inactive">
+		<name>Nyanjui Arthur</name>
+		<age>63</age>
+		<grade>A</grade>
+		<email>nyanjui.arthur@edulink.ac.ke</email>
+		<joindate>2023-09-01</joindate>
+	</student>
+</students>
