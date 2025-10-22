@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../css/employees.css" type="text/css"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <employee>
+        <name>Jane Doe</name>
+        <age>30</age>
+        <department>HR</department>
+        <language>EN</language>
+        <summary>Handles recruitment and employee relations.</summary>
+    </employee>
+    <employee>
+        <name>Michael Smith</name>
+        <age>40</age>
+        <department>IT</department>
+        <language>FR</language>
+        <summary>Manages company IT infrastructure and security systems.</summary>
+    </employee>
+    <employee>
+        <name>Sophia Lee</name>
+        <age>27</age>
+        <department>Finance</department>
+        <language>DE</language>
+        <summary>Responsible for budget planning and financial analysis.</summary>
+    </employee>
+    <employee>
+        <name>David Kim</name>
+        <age>35</age>
+        <department>Marketing</department>
+        <language>KR</language>
+        <summary>Leads marketing campaigns and social media strategy.</summary>
+    </employee>
+    <employee>
+        <name>Emily Chen</name>
+        <age>29</age>
+        <department>R&D</department>
+        <language>CN</language>
+        <summary>Conducts research for new product development and testing.</summary>
+    </employee>
+</employees>
