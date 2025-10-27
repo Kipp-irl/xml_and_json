@@ -1,0 +1,30 @@
+{
+    "book": [
+        {
+            "title": "A sample book on JSON",
+            "authors": [
+                {
+                    "name": "Mary Wanjiku",
+                    "bio": "Born in 1990, Mary is a JSON enthusiast."
+                },
+                {
+                    "name": "Gideon Owami",
+                    "email": "gideon@email.com"
+                }
+            ],
+            "publisher": "Maji Mazuri Press Ltd.",
+            "chapters": [
+                "Introduction to JSON",
+                "JSON Primitives and Structures",
+                "JSON serialization and deserialization"
+            ]
+        },
+        "notes":{
+            "text":"This section allows mixed content, such as object with arrays, or an array of objects",
+            "note":[
+                "embedded notes",
+                "example.json"
+            ]
+        }
+    ]
+}
